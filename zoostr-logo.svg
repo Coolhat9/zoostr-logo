@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Zoostr logo">
+  <title>Zoostr</title>
+  <defs>
+    <linearGradient id="fire" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="0.55" stop-color="#C2410C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="380" y1="560" x2="650" y2="180">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#E879A6"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="gw" gradientUnits="userSpaceOnUse" x1="450" y1="780" x2="560" y2="860">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="512" cy="380" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.32"/>
+      <stop offset="0.55" stop-color="#F59E0B" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#0B0A12" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#0B0A12"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+
+  <!-- MARK: hearth arch + Z-flame + spark -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M520 150 C528 250 664 322 664 448 C664 548 598 604 512 604 C426 604 360 548 360 448 C360 372 410 330 446 288 C450 330 470 352 490 356 C476 276 498 206 520 150 Z" stroke="url(#g)" stroke-width="20"/>
+    <path d="M440 410 H584 L440 538 H584" stroke="url(#g)" stroke-width="38"/>
+  </g>
+  <!-- spark -->
+  <path d="M730 190 C733 214 741 222 764 225 C741 228 733 236 730 260 C727 236 719 228 696 225 C719 222 727 214 730 190Z" fill="#FBBF24"/>
+
+  <!-- WORDMARK (outlined, font-free) -->
+  <g transform="translate(-4 0)" fill="none" stroke="#F4F1FF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 751 H300 L232 849 H300"/>
+    <circle cx="391" cy="820" r="29"/>
+    <circle cx="501" cy="820" r="29" stroke="url(#gw)"/>
+    <g transform="translate(40 0)"><path d="M584 794 C578 780 544 780 544 799 C544 815 584 811 584 831 C584 850 548 852 540 838"/>
+    <path d="M645 752 V830 Q645 849 667 849"/>
+    <path d="M626 790 H668"/>
+    <path d="M718 782 V849"/>
+    <path d="M718 812 C718 792 736 784 760 788"/></g>
+  </g>
+</svg>
